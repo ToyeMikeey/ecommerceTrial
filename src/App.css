@@ -1,0 +1,96 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+#cardstyle {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cardstyle:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#cardstyle img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#viewmore {
+  margin-top: 10px;
+}
+
+#viewmore h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+#viewmore a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #747bff;
+  transition: color 0.2s;
+}
+
+#viewmore a:hover {
+  color: #5a62ff;
+}
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #747bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: auto;
+}
+
+button:hover {
+  background-color: #5a62ff;
+}
+
+.categorybutton {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.categorybutton button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.categorybutton button:hover {
+  background-color: #e0e0e0;
+}
