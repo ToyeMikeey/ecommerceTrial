@@ -1,8 +1,24 @@
-# React + Vite
+# 🛍️ E-Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple e-commerce store built with **React**, fetching product data from [FakeStore API](https://fakestoreapi.com/) to display items dynamically. Users can browse products by category, search for items, and add them to a cart.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Fetches product data from an external API  
+✅ Category-based filtering (Men’s Clothing, Women’s Clothing, Jewelry, Electronics)  
+✅ Live search functionality  
+✅ Add to cart feature  
+✅ Responsive design  
+
+## 🖼️ Screenshots
+
+![alt text](ecom.png)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, CSS  
+- **API**: [FakeStore API](https://fakestoreapi.com/)  
+- **State Management**: useState, useEffect  
+
+## 📂 Folder Structure
+
